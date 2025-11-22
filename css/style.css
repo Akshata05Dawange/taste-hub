@@ -1,0 +1,56 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: #fffbe6;
+}
+
+.navbar-main-container{
+    background-color: rgb(15,15,15);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    position: static;
+    top: 0;
+    cursor:pointer
+}
+
+.main-logo{
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.project-name{
+    font-size: 24px;
+    font-weight:bold ;
+     cursor:pointer
+}
+.main-img{
+    height: 600px;
+  
+    margin-top: 20px;
+    max-width: 400px;
+}
+.nav-links-container{
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.auth-links-container{
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.main-content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+   
